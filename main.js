@@ -1,7 +1,7 @@
 // My Tasks Basic
 
 // HTML Elements
-let goBtnEl = document.getElementById('go-btn');
+let taskinputE1 = document.getElementById("tasks-input")
 let menuEl = document.getElementById('menu');
 let tasksEl = document.getElementById('tasks');
 
@@ -10,7 +10,7 @@ let tasks = initTasks();
 displayTasks();
 
 // Go Btn - Menu Listener
-goBtnEl.addEventListener('click', goBtnHandler);
+.addEventListener('click', goBtnHandler);
 
 function goBtnHandler() {
   // Get Menu Selection
