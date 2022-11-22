@@ -10,7 +10,7 @@ let tasks = initTasks();
 displayTasks();
 
 // Go Btn - Menu Listener
-.addEventListener('click', goBtnHandler);
+addEventListener('click', goBtnHandler);
 
 function goBtnHandler() {
   // Get Menu Selection
